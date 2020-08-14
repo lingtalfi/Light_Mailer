@@ -1,6 +1,6 @@
 Light_Mailer, conception notes
 =============
-2020-06-26 -> 2020-06-29
+2020-06-26 -> 2020-08-14
 
 
    
@@ -41,10 +41,10 @@ and create the template, which is explained below.
 
 What's the template
 -----------
-2020-06-26
+2020-06-26 -> 2020-08-14
 
 
-By default, we have all the templates in the **${app_dir}/templates/Light_Mailer** directory.
+By default, we have all the templates in the **${app_dir}/templates** directory.
 
 You can organize yourself how you want inside this directory.
 
@@ -55,26 +55,27 @@ Here is an example of structure:
 
 ```txt
 
-- /myapp/templates/Light_Mailer/
------ my_app_1/
---------- welcome_new_subscriber/
-------------- html.html
-------------- plain.txt
-------------- subject.txt
---------- forgotten_password/
-------------- html.html
-------------- plain.txt
-------------- subject.txt
+- /myapp/templates/
+----- Light_Mailer/
+--------- my_app_1/
+------------- welcome_new_subscriber/
+----------------- html.html
+----------------- plain.txt
+----------------- subject.txt
+------------- forgotten_password/
+----------------- html.html
+----------------- plain.txt
+----------------- subject.txt
 ```
 
 
 The above structure contains two templates:
 
-- **my_app_1/welcome_new_subscriber**
-- **my_app_1/forgotten_password**
+- **Light_Mailer/my_app_1/welcome_new_subscriber**
+- **Light_Mailer/my_app_1/forgotten_password**
 
 
-As you can see, the template name is basically the relative path (from the **Light_Mailer** directory) to the directory
+As you can see, the template name is basically the relative path (from the **templates** directory) to the directory
 containing your templates.
 
 
