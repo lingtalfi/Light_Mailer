@@ -106,9 +106,13 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.2.0 -- 2020-08-14
+
+    - the default templates directory is now app/templates/Light_Mailer again
+    
 - 1.1.0 -- 2020-08-14
 
-    - the default templates directory is not app/templates
+    - the default templates directory is now app/templates
     
 - 1.0.1 -- 2020-07-27
 
