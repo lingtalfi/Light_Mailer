@@ -1,6 +1,6 @@
 Light_Mailer
 ===========
-2020-06-29 -> 2020-08-14
+2020-06-29 -> 2020-08-17
 
 
 
@@ -106,6 +106,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.0 -- 2020-08-17
+
+    - update LightMailerService, add setSender and setTransport methods
+    
 - 1.2.0 -- 2020-08-14
 
     - the default templates directory is now app/templates/Light_Mailer again
