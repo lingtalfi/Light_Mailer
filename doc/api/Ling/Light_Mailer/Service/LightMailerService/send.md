@@ -125,7 +125,7 @@ Returns int.
 
 Source Code
 ===========
-See the source code for method [LightMailerService::send](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L235-L283)
+See the source code for method [LightMailerService::send](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L254-L302)
 
 
 See Also
@@ -133,5 +133,5 @@ See Also
 
 The [LightMailerService](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Service/LightMailerService.md) class.
 
-Previous method: [setOptions](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Service/LightMailerService/setOptions.md)<br>Next method: [debugLog](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Service/LightMailerService/debugLog.md)<br>
+Previous method: [registerTemplatePartsDirectory](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Service/LightMailerService/registerTemplatePartsDirectory.md)<br>Next method: [debugLog](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Service/LightMailerService/debugLog.md)<br>
 
