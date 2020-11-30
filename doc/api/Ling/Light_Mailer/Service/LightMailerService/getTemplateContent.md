@@ -23,7 +23,7 @@ protected [LightMailerService::getTemplateContent](https://github.com/lingtalfi/
 
 Returns the raw template content(s) corresponding to the given template id.
 
-Template parts references, if any, are resolved in the html and plain version (i.e. not the subject).
+Template parts references, if any.
 
 The return is an array containing:
 
@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightMailerService::getTemplateContent](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L454-L501)
+See the source code for method [LightMailerService::getTemplateContent](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L454-L504)
 
 
 See Also

@@ -1,4 +1,4 @@
-Hey admin, this is for the {appName} application.
+Hey admin, this is for the {template:appname.txt} application.
 
 Somebody successfully logged in to the manager.
 

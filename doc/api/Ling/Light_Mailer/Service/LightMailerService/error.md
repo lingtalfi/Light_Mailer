@@ -54,7 +54,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightMailerService::error](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L834-L837)
+See the source code for method [LightMailerService::error](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L837-L840)
 
 
 See Also

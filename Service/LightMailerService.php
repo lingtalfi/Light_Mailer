@@ -430,7 +430,7 @@ class LightMailerService
     /**
      * Returns the raw template content(s) corresponding to the given template id.
      *
-     * Template parts references, if any, are resolved in the html and plain version (i.e. not the subject).
+     * Template parts references, if any.
      *
      * The return is an array containing:
      *
@@ -482,12 +482,15 @@ class LightMailerService
             //--------------------------------------------
             // RESOLVING TEMPLATE PARTS REFERENCES
             //--------------------------------------------
-            if (null !== $plainContent) {
-                $this->resolveTemplatePartsReferences($plainContent, $templateId);
-            }
+            $this->resolveTemplatePartsReferences($plainContent, $templateId);
+
 
             if (null !== $htmlContent) {
                 $this->resolveTemplatePartsReferences($htmlContent, $templateId);
+            }
+
+            if (null !== $subjectContent) {
+                $this->resolveTemplatePartsReferences($subjectContent, $templateId);
             }
 
         } else {
