@@ -97,6 +97,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.2 -- 2020-11-30
+
+    - update LightMailerService->send, add errMode option
+    
 - 1.3.1 -- 2020-11-30
 
     - add template parts reference concept

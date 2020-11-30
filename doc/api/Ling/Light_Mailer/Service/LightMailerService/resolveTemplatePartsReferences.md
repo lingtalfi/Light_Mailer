@@ -53,7 +53,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightMailerService::resolveTemplatePartsReferences](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L483-L507)
+See the source code for method [LightMailerService::resolveTemplatePartsReferences](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L510-L534)
 
 
 See Also

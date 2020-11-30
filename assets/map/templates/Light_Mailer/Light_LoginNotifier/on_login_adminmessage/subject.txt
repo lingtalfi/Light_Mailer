@@ -1,1 +1,1 @@
-Hey admin, a problem occurred in {appName}
+Connexion to {appName}, with account {user_identifier}

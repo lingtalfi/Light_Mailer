@@ -70,7 +70,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightMailerService::getTemplateContent](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L427-L474)
+See the source code for method [LightMailerService::getTemplateContent](https://github.com/lingtalfi/Light_Mailer/blob/master/Service/LightMailerService.php#L454-L501)
 
 
 See Also
