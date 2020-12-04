@@ -97,6 +97,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.4 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.3.3 -- 2020-11-30
 
     - update LightMailerService->send, now template parts references are also possible in the mail subject
