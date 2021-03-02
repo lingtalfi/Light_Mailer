@@ -1,6 +1,6 @@
 Light_Mailer
 ===========
-2020-06-29 -> 2020-11-30
+2020-06-29 -> 2021-03-02
 
 
 
@@ -97,9 +97,13 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.6 -- 2021-03-02
+
+    - update service->sendMessage, now throwEx defaults to true
+  
 - 1.3.5 -- 2020-12-08
 
-    - Fix lpi-deps not using natsort.
+    - fix lpi-deps not using natsort
 
 - 1.3.4 -- 2020-12-04
 
