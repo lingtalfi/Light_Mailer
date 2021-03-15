@@ -1,6 +1,6 @@
 Light_Mailer
 ===========
-2020-06-29 -> 2021-03-09
+2020-06-29 -> 2021-03-15
 
 
 
@@ -101,6 +101,10 @@ $logger.methods_collection:
 
 History Log
 =============
+
+- 1.3.9 -- 2021-03-15
+
+    - update planet to adapt Ling.Light:0.70.0
 
 - 1.3.8 -- 2021-03-09
 
