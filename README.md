@@ -102,6 +102,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.13 -- 2021-05-03
+
+    - Update dependencies to Ling.Light_Logger (pushed by SubscribersUtil)
+
 - 1.3.12 -- 2021-05-03
 
     - Update dependencies to Ling.Light_Events (pushed by SubscribersUtil)
