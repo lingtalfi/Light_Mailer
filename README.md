@@ -102,6 +102,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.10 -- 2021-05-03
+
+    - Update dependencies to Ling.Light_Events (pushed by SubscribersUtil)
+
 - 1.3.9 -- 2021-03-15
 
     - update planet to adapt Ling.Light:0.70.0
