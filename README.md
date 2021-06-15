@@ -102,6 +102,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.17 -- 2021-06-15
+
+    - update installer hook2, now installs swiftmailer automatically if composer available
+  
 - 1.3.16 -- 2021-06-15
 
     - fix conception notes configuration section, wrong example

@@ -54,4 +54,4 @@ See the source code of [Ling\Light_Mailer\Exception\LightMailerException](https:
 
 SeeAlso
 ==============
-Next class: [LightMailerService](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Service/LightMailerService.md)<br>
+Next class: [LightMailerPlanetInstaller](https://github.com/lingtalfi/Light_Mailer/blob/master/doc/api/Ling/Light_Mailer/Light_PlanetInstaller/LightMailerPlanetInstaller.md)<br>
