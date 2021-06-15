@@ -102,6 +102,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.16 -- 2021-06-15
+
+    - fix conception notes configuration section, wrong example
+
 - 1.3.15 -- 2021-06-15
 
     - update conception notes, add configuration section

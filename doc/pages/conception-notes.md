@@ -81,8 +81,25 @@ $mailer.methods_collection:
             id: default
             sender:
                 from:
+                    - $yourSenderAddress
+
+
+```
+
+For the sender part, you can also specify a human name, like this:
+
+```yaml
+
+$mailer.methods_collection:
+    -
+        method: setSender
+        args:
+            id: default
+            sender:
+                from:
                     -
                         - $yourSenderAddress
+                        - $theNameSeenByTheRecipient
 
 
 ```

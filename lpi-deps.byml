@@ -157,3 +157,11 @@
     - Ling:Light:0.70.9
     - Ling:Light_Events:1.10.6
     - Ling:Light_Logger:1.11.9
+
+1.3.16: 
+    - Ling:ArrayToString:1.4.6
+    - Ling:ArrayVariableResolver:1.2.5
+    - Ling:Bat:1.323
+    - Ling:Light:0.70.9
+    - Ling:Light_Events:1.10.6
+    - Ling:Light_Logger:1.11.9
