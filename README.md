@@ -1,6 +1,6 @@
 Light_Mailer
 ===========
-2020-06-29 -> 2021-03-15
+2020-06-29 -> 2021-06-15
 
 
 
@@ -101,6 +101,10 @@ $logger.methods_collection:
 
 History Log
 =============
+
+- 1.3.15 -- 2021-06-15
+
+    - update conception notes, add configuration section
 
 - 1.3.14 -- 2021-05-31
 

@@ -1,9 +1,10 @@
 Light_Mailer, conception notes
 =============
-2020-06-26 -> 2021-03-09
+2020-06-26 -> 2021-06-15
 
 
    
+* [Configuration](#configuration)
 * [What's the template](#whats-the-template)
 * [Multi-transport](#multi-transport)
  * [smtp parameters](#smtp-parameters)
@@ -39,6 +40,52 @@ But of course, before you can do that, you need to configure the service (in par
 and create the template, which is explained below.
 
 
+
+
+
+
+
+Configuration
+----------
+2021-06-15
+
+
+
+When you install the mailer planet, it will not work out of the box.
+
+You need to configure the mailer parameters first before you can send emails.
+
+
+We suggest you add something like this in your 
+[_zzz.byml](https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/light-service-container.md#the-zzzbyml-file) file (replace the variables with your values):
+
+
+
+
+```yaml
+
+$mailer.methods_collection:
+    -
+        method: setTransport
+        args:
+            id: default
+            transport:
+                type: smtp
+                host: $yourHost
+                port: $yourPort
+                username: $yourUserName
+                password: $yourPassword
+    -
+        method: setSender
+        args:
+            id: default
+            sender:
+                from:
+                    -
+                        - $yourSenderAddress
+
+
+```
 
 What's the template
 -----------
