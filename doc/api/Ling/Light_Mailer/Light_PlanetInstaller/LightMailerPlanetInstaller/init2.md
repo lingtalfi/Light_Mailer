@@ -59,7 +59,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightMailerPlanetInstaller::init2](https://github.com/lingtalfi/Light_Mailer/blob/master/Light_PlanetInstaller/LightMailerPlanetInstaller.php#L23-L39)
+See the source code for method [LightMailerPlanetInstaller::init2](https://github.com/lingtalfi/Light_Mailer/blob/master/Light_PlanetInstaller/LightMailerPlanetInstaller.php#L24-L47)
 
 
 See Also

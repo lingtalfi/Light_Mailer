@@ -57,7 +57,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightMailerPlanetInstaller::undoInit2](https://github.com/lingtalfi/Light_Mailer/blob/master/Light_PlanetInstaller/LightMailerPlanetInstaller.php#L45-L70)
+See the source code for method [LightMailerPlanetInstaller::undoInit2](https://github.com/lingtalfi/Light_Mailer/blob/master/Light_PlanetInstaller/LightMailerPlanetInstaller.php#L53-L83)
 
 
 See Also

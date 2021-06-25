@@ -6,6 +6,7 @@ namespace Ling\Light_Mailer\Light_PlanetInstaller;
 
 use Ling\Bat\LocalHostTool;
 use Ling\CliTools\Output\OutputInterface;
+use Ling\Light_Logger\Helper\LightLoggerHelper;
 use Ling\Light_PlanetInstaller\PlanetInstaller\LightBasePlanetInstaller;
 use Ling\Light_PlanetInstaller\PlanetInstaller\LightPlanetInstallerInit2HookInterface;
 
@@ -36,6 +37,13 @@ class LightMailerPlanetInstaller extends LightBasePlanetInstaller implements Lig
             passthru('"' . $composerPath . '" require "swiftmailer/swiftmailer:^6.0"');
             $output->write("<success>ok.</success>" . PHP_EOL);
         }
+
+        //--------------------------------------------
+        // logger
+        //--------------------------------------------
+        $output->write("$planetDotName: registering Ling.Light_Logger listeners to open system...");
+        LightLoggerHelper::copyListenersFromPluginToMaster($appDir, $planetDotName);
+        $output->write("<success>ok.</success>" . PHP_EOL);
     }
 
 
@@ -66,7 +74,12 @@ class LightMailerPlanetInstaller extends LightBasePlanetInstaller implements Lig
 //            }
 //        }
 
-
+        //--------------------------------------------
+        // logger
+        //--------------------------------------------
+        $output->write("$planetDotName: unregistering Ling.Light_Logger listeners from open system...");
+        LightLoggerHelper::removeListenersFromMaster($appDir, $planetDotName);
+        $output->write("<success>ok.</success>" . PHP_EOL);
     }
 
 

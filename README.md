@@ -66,35 +66,6 @@ mailer:
 
 
 
-# --------------------------------------
-# hooks
-# --------------------------------------
-$logger.methods_collection:
-    -
-        method: addListener
-        args:
-            channels: mailer.debug
-            listener:
-                instance: Ling\Light_Logger\Listener\LightCleanableFileLoggerListener
-                methods:
-                    configure:
-                        options:
-                            file: ${app_dir}/log/mailer_debug.txt
-    -
-        method: addListener
-        args:
-            channels: mailer.send_failures
-            listener:
-                instance: Ling\Light_Logger\Listener\LightFileLoggerListener
-                methods:
-                    configure:
-                        options:
-                            file: ${app_dir}/log/mailer_send_failures.txt
-
-
-
-
-
 ```
 
 
@@ -102,6 +73,10 @@ $logger.methods_collection:
 History Log
 =============
 
+- 1.3.19 -- 2021-06-25
+
+    - update api, now use Ling.Light_Logger open registration system
+  
 - 1.3.18 -- 2021-06-15
 
     - fix LightMailerService->getMailerRootDir not returning galaxy aware path
