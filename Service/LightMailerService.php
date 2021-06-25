@@ -596,7 +596,7 @@ class LightMailerService
      */
     private function getMailerRootDir(): string
     {
-        return $this->container->getApplicationDir() . "/templates/Light_Mailer";
+        return $this->container->getApplicationDir() . "/templates/Ling.Light_Mailer";
     }
 
 

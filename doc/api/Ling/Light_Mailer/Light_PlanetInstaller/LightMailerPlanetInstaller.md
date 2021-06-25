@@ -4,7 +4,7 @@
 
 The LightMailerPlanetInstaller class
 ================
-2020-06-29 --> 2021-06-15
+2020-06-29 --> 2021-06-25
 
 
 
